@@ -9,11 +9,12 @@ class InitBindings extends Bindings {
   @override
   void dependencies() {
     Get.put(AuthController(), permanent: true);
-  }
-
-  static additionalBinding() {
     Get.put(BottomNavController(), permanent: true);
     Get.put(MyPageController(), permanent: true);
     Get.put(HomeController(), permanent: true);
+  }
+
+  static additionalBinding() {
+
   }
 }

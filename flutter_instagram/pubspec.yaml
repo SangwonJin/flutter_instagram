@@ -48,6 +48,7 @@ dependencies:
   photofilters: ^3.0.1
   uuid: ^3.0.6
   timeago: ^3.3.0
+  file:^6.1.4
 
 dev_dependencies:
   flutter_test:
